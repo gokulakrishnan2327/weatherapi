@@ -52,8 +52,8 @@ The app will be available at `http://localhost:3000`.
 The application uses the [Open-Meteo Archive API](https://open-meteo.com/) to fetch historical weather data. The endpoint used is:
 
 ```text
-https://archive-api.open-meteo.com/v1/archive
-```
+[https://archive-api.open-meteo.com/v1/archive
+](https://archive-api.open-meteo.com/v1/archive?latitude=52.52&longitude=13.41&start_date=2024-12-08&end_date=2024-12-22&hourly=temperature_2m)```
 
 ## Features Walkthrough
 
