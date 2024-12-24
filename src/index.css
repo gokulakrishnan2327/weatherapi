@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +15,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* In your global CSS */
+body {
+  background-color: #121212; /* Dark background for the whole app */
+  color: white;
+}
+
+.bg-dark-gray {
+  background-color: #121212;
+}
+
+.bg-dark-gray {
+  background-color: #121212 !important;
+}
+
+/* Or more specific selectors */
+.container .bg-dark-gray {
+  background-color: #121212;
+}
+
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #4C9F70; /* Hover color for buttons */
+}
+
+input, select, button {
+  background-color: #333;
+  color: white;
+}
+
+table {
+  background-color: #1e1e1e;
+}
+
+th, td {
+  padding: 0.5rem;
+}
+
+th {
+  text-align: left;
+  background-color: #2a2a2a;
+}
+
